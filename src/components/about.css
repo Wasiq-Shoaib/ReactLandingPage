@@ -1,0 +1,36 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0px auto;
+}
+.about {
+  width: 35rem;
+  background-color: #fff6f6;
+  height: 40rem;
+  position: relative;
+}
+.about img {
+  width: 35rem;
+  height: 40rem;
+  position: absolute;
+  top: 6rem;
+  left: 6rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.about-content h2 {
+  font-size: 3rem;
+}
+
+.about-content p {
+  font-size: 0.8rem;
+}

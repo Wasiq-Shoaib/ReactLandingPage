@@ -1,0 +1,37 @@
+.main-img img {
+  display: block;
+  width: 42rem;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto 0px auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h3 {
+  font-size: 5rem;
+  color: red;
+  margin-bottom: 20px;
+}
+.text h2 {
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+.text p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+button {
+  border: 1px solid red;
+  background: none;
+  padding: 12px;
+  color: red;
+  width: 8rem;
+  margin-top: 2rem;
+}
